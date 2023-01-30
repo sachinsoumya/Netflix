@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+   
+.signIn{
+    width: 80px;
+    height: 33.2px;
+}
+.back{
+    background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%),url('./Images/NetFlixImage.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position:right;
+    /* background: rgba(0,0,0,.5); */
+    
+}
+/* .w-25{
+    width: 5% !important;
+} */
+.head{
+    width: 12vw;
+}
+.sign{
+    width: 250px;
+}
+.mailIn , .mailBtn{
+    height:70px;
+    border-radius: 0;
+
+}
+button.mailBtn:active{
+    background: maroon !important;;
+    box-shadow:0 1px 0 rgb(0 0 0 / 45%);
+}
+.sec1{
+    width: 50%;
+}
+.head1{
+    font-size: 4.5vw;
+    line-height:1.3;
+    font-weight: bold;
+}
+.dropdown-menu{
+    --bs-dropdown-min-width: 6rem;
+
+}
+.part2{
+    height: 550px;
+    
+}
+.part3{
+    height: auto;
+}
+.part4{
+    height: auto;
+}
+.back-color{
+    background-color: black!important;
+}
+.sec2-head{
+    font-size: 3.5rem;
+}
+
+/* .tv{
+    width: 25vw;
+} */
+.inner{
+    width: 400px;
+}
+.img-width{
+    width: 500px;
+}
+.img2-width{
+    width: 550px;
+}
+.row{
+    --bs-gutter-x: 0.0rem;
+    --bs-gutter-y: 0;
+}
+.accord{
+    width: 60%;
+}
+.accordion{
+    border: none!important;
+     --bs-accordion-border-color:#000000;
+     --bs-accordion-active-color:#000000 !important;
+    --bs-accordion-active-bg:#000000 !important ;
+    --bs-accordion-btn-focus-border-color:black !important;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.15rem black;
+
+}
+
+.accordion-item{
+    background-color: black!important;
+
+}
+.acrd-height{
+    height: 70px;
+
+}
+.accordion-button{
+    font-size: 1.5rem!important;
+}
+.body-font{
+    font-size: 1.5rem;
+}
+.footer-link{
+    width:24%;
+    
+}
+@media (max-width:1025px) {
+    .img-width{
+        width: 450px;
+    }
+    .img2-width{
+        width: 450px;
+    }
+    
+}
+
+@media (max-width:960px) {
+    
+    .head{
+        width: 14vw;
+
+    }
+    .sec1{
+        width:70%;
+    }
+    .mailIn , .mailBtn{
+        height:50px;
+        border-radius: 0;
+        border-radius: 3px;
+    
+    }
+    .mailBtn{
+        width: 75% !important; 
+        font-size:1.0rem ;
+        
+    }
+    .h6{
+        font-size: 20px!important;
+    }
+    .head1{
+        font-size: 5.5vw;
+    }
+    .img-width{
+        width: 400px;
+    }
+    .img2-width{
+        width: 400px;
+    }
+
+    .sec2-head{
+        font-size: 2.5rem;
+    }
+    .accord{
+        width: 75%;
+    }
+    .footer-link{
+        width:24%;
+        font-size: 0.8rem;
+        
+    }
+    
+    
+    /* .tv{
+        width: 75%;
+    } */
+    
+    
+    
+}
+ /* @media (max-width:769px){
+
+} */
+    
+
+@media (max-width:576px) {
+    
+    .ps-5{
+        padding-left: 6rem!important;
+    }
+    .sec1{
+        width:100%;
+    }
+    .head1{
+        font-size: 6.2vw;
+    }
+    .h3{
+        font-size: 20px!important;
+    }
+
+  .mailBtn{
+        width: 107% !important; 
+        font-size:1.0rem ;
+        height: 45px;
+        
+    }
+    .mailIn{
+        height: 55px;
+    }
+    .head{
+        width: 22vw;
+
+    }
+    .btn-sm{
+        --bs-btn-font-size: 0.670rem;
+    }
+    .signIn{
+        width: 60px;
+        height: 26px;
+    }
+    .img-width{
+        width: 300px;
+    }
+    .img2-width{
+        width: 300px;
+    }
+    
+    .sec2-head{
+        font-size: 2.0rem;
+    }
+    .h4{
+        font-size: 1rem!important;
+    }
+    .accord{
+        width:100%;
+    }
+    .acrd-height{
+        height: 55px;
+        
+    }
+    .accordion-button{
+        font-size: 1rem!important;
+    }
+    .body-font{
+        font-size: 1rem;
+    }
+    .footer-link{
+        width:32.6%;
+        
+        
+    }
+    
+    
+
+}
+@media (max-width:526px) {
+    .footer-link{
+        width:48.6%;
+        
+        
+    }
+
+    
+}
+@media (max-width:280px) {
+    .img-width{
+        width: 275px;
+    }
+    .img2-width{
+        width:270px ;
+    }
+    .mailBtn{
+        font-size: 0.7rem;
+    }
+    .ps-5{
+        padding-left: 3rem!important;
+    }
+    
+}
+@media (max-width:915px ) and (min-width:910px) {
+    .ps-md-4{
+        padding-left: 1rem!important;
+    }
+    
+}
